@@ -339,7 +339,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "items": Array [],
         },
@@ -1556,7 +1556,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "1001",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1578,7 +1578,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "1002",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1598,7 +1598,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "1003",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1620,7 +1620,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "1004",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1641,7 +1641,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "1005",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1660,7 +1660,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "1006",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1681,7 +1681,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "1007",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1701,7 +1701,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "1008",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1722,7 +1722,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "1009",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1741,7 +1741,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10010",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1762,7 +1762,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10011",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [],
@@ -1778,7 +1778,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10012",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1797,7 +1797,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10013",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1816,7 +1816,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10014",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1837,7 +1837,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10015",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1857,7 +1857,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10016",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1877,7 +1877,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10017",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1896,7 +1896,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10018",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1915,7 +1915,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10019",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -1935,7 +1935,7 @@ ShallowWrapper {
                   Object {
                     "instance": null,
                     "key": "10020",
-                    "nodeType": "class",
+                    "nodeType": "function",
                     "props": Object {
                       "item": Object {
                         "dietaries": Array [
@@ -2351,7 +2351,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "items": Array [],
           },
@@ -3568,7 +3568,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "1001",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3590,7 +3590,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "1002",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3610,7 +3610,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "1003",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3632,7 +3632,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "1004",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3653,7 +3653,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "1005",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3672,7 +3672,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "1006",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3693,7 +3693,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "1007",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3713,7 +3713,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "1008",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3734,7 +3734,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "1009",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3753,7 +3753,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10010",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3774,7 +3774,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10011",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [],
@@ -3790,7 +3790,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10012",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3809,7 +3809,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10013",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3828,7 +3828,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10014",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3849,7 +3849,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10015",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3869,7 +3869,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10016",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3889,7 +3889,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10017",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3908,7 +3908,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10018",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3927,7 +3927,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10019",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -3947,7 +3947,7 @@ ShallowWrapper {
                     Object {
                       "instance": null,
                       "key": "10020",
-                      "nodeType": "class",
+                      "nodeType": "function",
                       "props": Object {
                         "item": Object {
                           "dietaries": Array [
@@ -4063,6 +4063,5 @@ ShallowWrapper {
     Symbol(enzyme.__providerValues__): undefined,
   },
   Symbol(enzyme.__providerValues__): Map {},
-  Symbol(enzyme.__childContext__): null,
 }
 `;

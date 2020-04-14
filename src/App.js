@@ -1,38 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import MenuPreview from './components/MenuPreview/MenuPreview';
 import itemsFromFile from "./items";
 import Sidebar from './components/Sidebar/Sidebar';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {items: itemsFromFile, selectedItems: []};
+function App () {
+  const [ items ] = useState(itemsFromFile);
+  const [ selectedItems, setSelectedItems ] = useState([]);
+
+  function sidebarItemClick (item) {
+    const hasSelectedItem = selectedItems.some(selectedItem => selectedItem.id === item.id);
+    if (hasSelectedItem) console.log(`Item "${item.name}" already added. Don't do anything for now...`);
+    setSelectedItems(!hasSelectedItem ? selectedItems.concat(item) : selectedItems);
   }
 
-  sidebarItemClick = (item) => {
-    this.setState((state) => {
-      const hasSelectedItem = state.selectedItems.some(selectedItem => selectedItem.id === item.id);
-      if (hasSelectedItem) console.log(`Item "${item.name}" already added. Don't do anything for now...`);
-      return {
-        items: state.items,
-        selectedItems: !hasSelectedItem ? state.selectedItems.concat(item) : state.selectedItems
-      };
-    });
+  function deleteItemClick (item) {
+    setSelectedItems(selectedItems.filter(selectedItem => selectedItem.id !== item.id))
   }
 
-  deleteItemClick = (item) => {
-    this.setState((state) => ({
-      items: state.items,
-      selectedItems: state.selectedItems.filter(selectedItem => selectedItem.id !== item.id)
-    }));
-  }
-
-  render() {
-    const items = this.state.items;
-    const selectedItems = this.state.selectedItems;
-    return (
+  return (
     <div className="wrapper">
       <Header items={selectedItems} />
 
@@ -44,7 +31,7 @@ class App extends React.Component {
                 <Sidebar
                   key={item.id}
                   item={item}
-                  onItemClick={this.sidebarItemClick} /> )}
+                  onItemClick={sidebarItemClick} /> )}
             </ul>
           </div>
           <div className="col-8">
@@ -55,14 +42,14 @@ class App extends React.Component {
                 <MenuPreview
                   key={item.id}
                   item={item}
-                  onDeleteClick={this.deleteItemClick} /> )
+                  onDeleteClick={deleteItemClick} /> )
               : <div>No item yet :)</div>}
             </ul>
           </div>
         </div>
       </div>
     </div>
-  )};
+  );
 };
 
 export default App;

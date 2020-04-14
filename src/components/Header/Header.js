@@ -1,36 +1,34 @@
 import React from "react";
 import './Header.css';
 
-class Header extends React.Component {
-  render () {
-    const dietaryTypesTotal = this.props.items.reduce((total, items) => {
-      items.dietaries.forEach((dietary) => total[dietary] = (total[dietary] || 0) + 1);
-      return total;
-    }, {});
-    return (
+function Header ({ items }) {
+  const dietaryTypesTotal = items.reduce((total, items) => {
+    items.dietaries.forEach((dietary) => total[dietary] = (total[dietary] || 0) + 1);
+    return total;
+  }, {});
+  const dietaryTypeList = Object.keys(dietaryTypesTotal);
+  return (
     <div className="menu-summary">
       <div className="container">
         <div className="row">
           <div className="col-6 menu-summary-left">
-            <span>{this.props.items.length} items</span>
+            <span>{items.length} items</span>
           </div>
 
-          {Object.keys(dietaryTypesTotal).length > 0 && <div className="col-6 menu-summary-right">
-            {Object.keys(dietaryTypesTotal).map((dietaryTypeKey, index) => {
-              return (
-              <React.Fragment key={index}>
-                {dietaryTypesTotal[dietaryTypeKey]}x <span className="dietary">{dietaryTypeKey}</span>
-              </React.Fragment>
-              );
-            })}
-          </div>}
+          {dietaryTypeList.length > 0 && (
+            <div className="col-6 menu-summary-right">
+              {dietaryTypeList.map((dietaryTypeKey, index) => (
+                <React.Fragment key={index}>
+                  {dietaryTypesTotal[dietaryTypeKey]}x <span className="dietary">{dietaryTypeKey}</span>
+                </React.Fragment>
+              ))}
+            </div>
+          )}
 
         </div>
       </div>
     </div>
-    );
-  }
-  // getEachDietary? using a reducer?
+  );
 }
 
 export default Header;
