@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import MenuPreview from './components/MenuPreview/MenuPreview';
-import itemsFromFile from "./items";
 import Sidebar from './components/Sidebar/Sidebar';
+import ApiClient from "./ApiClient";
 
-function App () {
-  const [ items ] = useState(itemsFromFile);
+const App = () => {
+  const [ items, setItems ] = useState([]);
   const [ selectedItems, setSelectedItems ] = useState([]);
 
   function sidebarItemClick (item) {
@@ -18,6 +18,16 @@ function App () {
   function deleteItemClick (item) {
     setSelectedItems(selectedItems.filter(selectedItem => selectedItem.id !== item.id))
   }
+
+  React.useEffect(() => {
+    async function getMyItems() {
+      const result = await ApiClient.getItems();
+      setItems(result || []);
+    }
+
+    // eslint-disable-next-line @typescript-eslint/no-floating-promises
+    getMyItems();
+  }, []);
 
   return (
     <div className="wrapper">
